@@ -1,4 +1,5 @@
 import discord
+import platform
 import key
 
 client = discord.Client()
@@ -24,6 +25,10 @@ async def on_message(message):
         # await message.channel.send(content)
     elif message.content == "おはよう！":
         await message.channel.send("こけこっこー！")
+        
+    ## --- DEV MODE ---
+    elif message.content == "こっこえんぶ":
+        await message.channel.send(str(platform.system()))
 
 # ------ 実装メモ -----
 # 1. メッセージを分解して辞書に登録
