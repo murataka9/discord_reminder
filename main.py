@@ -28,7 +28,7 @@ async def on_message(message):
         
     ## --- DEV MODE ---
     elif message.content == "こっこえんぶ":
-        await message.channel.send(str(platform.system()))
+        await message.channel.send(str(platform.platform()) + "\n Google Cloud Engine -e2-micro -us-west0")
 
 # ------ 実装メモ -----
 # 1. メッセージを分解して辞書に登録
