@@ -1,5 +1,5 @@
 import discord
-import token
+import key
 
 client = discord.Client()
 
@@ -9,5 +9,5 @@ async def on_ready():
     print(discord.__version__)
     
 
-tokens = token.Token()
+tokens = key.Token()
 client.run(tokens)

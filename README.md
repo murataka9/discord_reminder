@@ -20,3 +20,13 @@ Discord 版 リマインくんっぽいの
 ```zsh
 $ pip3 install discord
 ```
+
+&&
+
+Please create key.py like bottom OR Get from admin if you're not admin -- Your Token is secure
+
+```Python3
+def Token():
+    token = 'Your Token (string)'
+    return token
+```
