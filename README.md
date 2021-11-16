@@ -13,6 +13,10 @@ Discord 版 リマインくんっぽいの
 2. nohup python3 main.py &
 
 ## Require
+- Python 3.x
+
+&&
+
 ```zsh
 $ pip3 install discord
 ```
