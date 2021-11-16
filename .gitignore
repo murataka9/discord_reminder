@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # Tokenfile
-token.py
+key.py
 
